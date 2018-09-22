@@ -1,9 +1,0 @@
-spring:
-  thymeleaf:
-    cache: false
-
-files:
-  imgs:
-    patch: /opt/imgs
-    get: file:///opt/imgs
-
