@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zc.tower.config.YmlConfig",
+      "name": "",
+      "type": "com.zc.tower.config.YmlConfig"
+    }
+  ],
+  "properties": []
+}
