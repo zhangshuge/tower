@@ -5,5 +5,5 @@ spring:
 files:
   imgs:
     patch: /opt/imgs
-    get: file:///opt/imgs
+    get: file:/opt/imgs/
 
