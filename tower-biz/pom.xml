@@ -9,19 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tower-model</artifactId>
+    <artifactId>tower-biz</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>tower-model-do</module>
-        <module>tower-model-vo</module>
-        <module>tower-model-dto</module>
+        <module>tower-biz-servers</module>
     </modules>
-
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 </project>

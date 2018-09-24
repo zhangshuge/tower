@@ -11,6 +11,8 @@
         <module>tower-web</module>
         <module>tower-model</module>
         <module>tower-config</module>
+        <module>tower-doc</module>
+        <module>tower-biz</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -25,6 +27,8 @@
 
     <properties>
         <spring.boot.version>2.0.5.RELEASE</spring.boot.version>
+        <lombok.version>1.18.2</lombok.version>
+        <jdbc.driver.version>5.1.46</jdbc.driver.version>
     </properties>
 
 
@@ -52,6 +56,28 @@
                 <artifactId>spring-boot-devtools</artifactId>
                 <optional>true</optional>
                 <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${jdbc.driver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

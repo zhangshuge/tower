@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author zhangchi
  */
 @Controller
-public class IndexAction {
+public class IndexController {
     @RequestMapping("/templates/")
     public String index(){
         return "index";

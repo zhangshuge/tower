@@ -1,6 +1,4 @@
 spring:
-  thymeleaf:
-    cache: false
   datasource:
     url: jdbc:mysql://39.107.76.162:3306/zhangchi
     username: zhangchi
@@ -10,11 +8,4 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-
-
-files:
-  imgs:
-    patch: D:/test/
-    get: file:///D:/test/
 

@@ -1,0 +1,16 @@
+create table servers(
+  uuid varchar(32) not null,
+  ip varchar(15) not null,
+  host_name varchar(32) not null,
+  idc varchar(2) not null,
+  module varchar(32) not null,
+  app varchar(64) not null,
+  status char(2) not null,
+  `partition` VARCHAR(32) NULL DEFAULT NULL,
+  create_user varchar(32) NULL,
+  create_time DATETIME NULL,
+  update_user varchar(32) NULL,
+  update_time DATETIME NULL,
+  is_delete char(2) DEFAULT '0',
+  PRIMARY KEY ( uuid )
+);

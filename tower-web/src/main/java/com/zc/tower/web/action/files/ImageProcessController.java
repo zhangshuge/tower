@@ -14,7 +14,7 @@ import java.io.IOException;
  * @author zhangchi
  */
 @Controller
-public class ImageProcessAction {
+public class ImageProcessController {
 
     @Value("${files.imgs.patch}")
     private String imgPath;
