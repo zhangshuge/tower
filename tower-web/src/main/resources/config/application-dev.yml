@@ -2,7 +2,7 @@ spring:
   thymeleaf:
     cache: false
   datasource:
-    url: jdbc:mysql://39.107.76.162:3306/zhangchi
+    url: jdbc:mysql://39.107.76.162:3306/zhangchi?useSSL=false
     username: zhangchi
     password: zhangchi
     driver-class-name: com.mysql.jdbc.Driver
