@@ -1,21 +1,8 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 out
 gen
-将删除 .idea/libraries/
-将删除 .idea/modules.xml
-将删除 .idea/tower.iml
-将删除 tower-config/target/
-将删除 tower-config/tower-config.iml
-将删除 tower-web/target/
-将删除 tower-web/tower-web.iml
-
-
-/target/
 
 target/
