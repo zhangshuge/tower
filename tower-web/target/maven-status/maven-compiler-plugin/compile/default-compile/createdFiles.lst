@@ -1,0 +1,4 @@
+com\zc\tower\web\Application.class
+com\zc\tower\web\action\servers\ServersListController.class
+com\zc\tower\web\action\IndexController.class
+com\zc\tower\web\action\files\ImageProcessController.class

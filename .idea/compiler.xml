@@ -6,15 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tower-biz-servers" />
         <module name="tower-config" />
-        <module name="tower-model" />
+        <module name="tower-doc" />
+        <module name="tower-model-do" />
+        <module name="tower-model-dto" />
+        <module name="tower-model-vo" />
         <module name="tower-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tower" target="1.8" />
+      <module name="tower-biz" target="1.8" />
+      <module name="tower-biz-servers" target="1.8" />
       <module name="tower-config" target="1.8" />
+      <module name="tower-doc" target="1.8" />
       <module name="tower-model" target="1.8" />
+      <module name="tower-model-do" target="1.8" />
+      <module name="tower-model-dto" target="1.8" />
+      <module name="tower-model-vo" target="1.8" />
       <module name="tower-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

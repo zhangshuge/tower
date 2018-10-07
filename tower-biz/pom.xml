@@ -11,6 +11,7 @@
 
     <artifactId>tower-biz</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>tower-biz-servers</module>
     </modules>

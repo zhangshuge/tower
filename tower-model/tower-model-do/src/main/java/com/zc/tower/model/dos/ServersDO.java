@@ -1,4 +1,4 @@
-package com.zc.tower.model.dao;
+package com.zc.tower.model.dos;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -6,15 +6,17 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.sql.Timestamp;
 
 /**
  * @author zhangchi
  */
 @Data
-@Entity(name = "servers")
+@Entity
+@Table(name = "servers")
 @NoArgsConstructor
-public class ServersDAO {
+public class ServersDO {
     @Id
     @GeneratedValue
     private String uuid;
